@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影详情</title>
+    <link  href="./css/bootstrap.css" rel="stylesheet">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link  href="./css/app.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航条 start-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">小电影</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="/">首页 <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">动作</a></li>
+              <li><a href="#">科幻</a></li>
+              <li><a href="#">爱情</a></li>
+              <li><a href="#">动漫</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="关键字">
+              </div>
+              <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">XIAO-HIGH <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">我的收藏</a></li>
+                  <li><a href="#">我的足迹</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <!-- 导航条 end-->
+
+    <!--内容区start-->
+    <div class="container">
+      <div class="row">
+          <!--左边 播放器 start-->
+          <div class="col-lg-9">
+            <video controls src="./movies/86eaa9e173c49bdd43aef5d2de21f4e2.mp4">
+            </video>
+            <!--标题start-->
+            <h3>急先锋</h3>
+            <div>
+              <span class="label label-default">动作</span>
+              <span class="label label-default">警匪</span>
+            </div>
+            <p class="intro">
+              <p>地区：香港</p>
+              <p>上映时间：2020</p>
+              <p>
+                  士大夫雷克阿斯顿发送到发生大法师的按时萨的看法拉速度快飞拉萨的开发商的拉开发送到李开复多斯拉克打死了快打死了福克斯大六
+              </p>
+            </p>
+            <!--标题end-->
+          </div>
+          <!--左边 播放器 end-->
+          <!--右边 播放器 start-->
+          <div class="col-lg-3" id="right-list">
+            <h3 class="no-margin-top">其他的推荐</h3>
+            <div class="item">
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <img src="holder.js/100px80?bg=#90c" alt="">
+                </div>
+                <div class="col-lg-6 no-padding-left" >
+                    <a href="#">急先锋</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <img src="holder.js/100px80?bg=#90c" alt="">
+                </div>
+                <div class="col-lg-6 no-padding-left" >
+                    <a href="#">急先锋</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <img src="holder.js/100px80?bg=#90c" alt="">
+                </div>
+                <div class="col-lg-6 no-padding-left" >
+                    <a href="#">急先锋</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <img src="holder.js/100px80?bg=#90c" alt="">
+                </div>
+                <div class="col-lg-6 no-padding-left" >
+                    <a href="#">急先锋</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--右边 播放器 end-->
+      </div>
+    </div>
+</body>
+</html>

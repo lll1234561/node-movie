@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+video{
+    width: 1000px;
+    height: 600px;
+}
+.no-margin-top{
+    margin-top: 0;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+#right-list .item{
+    margin-bottom: 20px;
+
+}
+
+.h-10{
+    height: 10px;
+}
+.h-20{
+    height: 20px;
+}
+.v-hidden{
+    visibility: hidden;
+}
