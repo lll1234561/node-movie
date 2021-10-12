@@ -1,0 +1,23 @@
+<%- include('../layout/_header')%>
+    <!--注册表单start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg0offset-4">
+                    <h2 class="page-header">注册</h2>
+                    <form method="POST" action="/register">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">邮箱</label>
+                          <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">密码</label>
+                            <input type="password" name="password" class="form-control" id="exampleInputEmail1" placeholder="">
+                          </div>
+                         <hr> 
+                        <button type="submit" class="btn btn-primary btn-block">添加</button>
+                      </form>
+
+            </div>
+        </div>
+    </div>
+<%- include('../layout/_footer') %>
